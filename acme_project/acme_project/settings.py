@@ -1,3 +1,4 @@
+# Хранятся все настройки проекта
 """
 Django settings for acme_project project.
 
@@ -31,6 +32,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'homepage.apps.HomepageConfig',
+    'ice_cream.apps.IceCreamConfig',
+    'about.apps.AboutConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

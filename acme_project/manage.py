@@ -1,5 +1,11 @@
-#!/usr/bin/env python
+"""
+Файл управления Django-проектом из командной строки.
+Работа с базой данных, запуск встроенного сервера разработки, создание
+приложений — все эти операции будем выполнять через вызов этого файла.
+"""
+# !/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
+
 import os
 import sys
 
